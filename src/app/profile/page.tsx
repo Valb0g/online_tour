@@ -1,15 +1,15 @@
-import styles from "./page.module.scss";
+import styles from "../page.module.scss";
 import { title } from "@/titles";
 
 export const metadata = {
-  title: title.home
+  title: title.profile
 }
-export default function Home() {
+export default function Profile() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <h1>
-          Home Page
+          Profile Page
         </h1>
       </div>
     </main>
